@@ -1,0 +1,35 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace !important;
+    overflow: hidden;
+    background-color: rgb(50,50,50);
+    background-image: url('assets/preload.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+canvas{
+    margin: auto;
+    position: absolute;
+    left: 0%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 4px solid white;
+    box-shadow: 0px 0px 20px black;
+}
+
+@media(max-width:768px){
+    canvas{
+        margin: unset;
+        position: unset;
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+        border:unset;
+    }
+}
